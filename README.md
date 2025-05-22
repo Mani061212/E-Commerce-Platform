@@ -5,18 +5,31 @@ Welcome to My E-Commerce App, a modern, responsive online shopping platform buil
 -------------------
 
 Table of Contents
+
 -Features
+
 -Technologies Used
+
 -Getting Started
+
 -Prerequisites
+
 -Installation
+
 -Running the Development Server
+
 -Building for Production
+
 -Project Structure
+
 -API Reference
+
 -UI/UX Enhancements
+
 -Future Enhancements
+
 -Contributing
+
 -License
 
 -----------------
@@ -25,15 +38,23 @@ Features
 
 This application includes the following core functionalities:
 
-Product Listings: Browse a wide range of products with detailed cards.
-Product Details: View comprehensive information for each product on its dedicated page.
-Shopping Cart: Add, remove, and update quantities of items in your cart.
-Cart Summary: See the total cost and item count in your shopping cart.
-Category Filtering: Filter products by specific categories.
-Text Search: Search for products by title or description.
-Price Filtering: Filter products by minimum and maximum price.
-Dark Mode Toggle: Switch between light and dark themes for comfortable viewing.
-Responsive Design: Optimized for various screen sizes, from mobile to desktop.
+- Product Listings: Browse a wide range of products with detailed cards.
+
+- Product Details: View comprehensive information for each product on its dedicated page.
+
+- Shopping Cart: Add, remove, and update quantities of items in your cart.
+
+- Cart Summary: See the total cost and item count in your shopping cart.
+
+- Category Filtering: Filter products by specific categories.
+
+- Text Search: Search for products by title or description.
+
+- Price Filtering: Filter products by minimum and maximum price.
+
+- Dark Mode Toggle: Switch between light and dark themes for comfortable viewing.
+
+- Responsive Design: Optimized for various screen sizes, from mobile to desktop.
 
 --------------
 
@@ -97,24 +118,44 @@ The project follows a standard Next.js structure with a dedicated src directory 
 
 
 my-ecommerce-app/
+
 ├── public/                  # Static assets (images, fonts, etc.)
+
 ├── src/
+
 │   ├── components/          # Reusable React components (Navbar, ProductCard, CartItem)
+
 │   ├── context/             # React Context for global state management (CartContext, ThemeContext)
+
 │   ├── lib/                 # Utility functions (API calls)
+
 │   ├── pages/               # Next.js pages (routes: index, products, product/[id], cart, _app)
+
 │   ├── styles/              # Global CSS styles (globals.css)
+
 │   ├── types/               # TypeScript type definitions
+
 │   └── __tests__/           # Jest/React Testing Library tests
+
 ├── .next/                   # Next.js build output (ignored by Git)
+
 ├── node_modules/            # Project dependencies (ignored by Git)
+
+
 ├── package.json             # Project metadata and scripts
+
 ├── tailwind.config.js       # Tailwind CSS configuration
+
 ├── postcss.config.js        # PostCSS configuration for Tailwind CSS
+
 ├── next.config.js           # Next.js configuration
+
 ├── tsconfig.json            # TypeScript configuration
+
 └── README.md                # This file
+
 API Reference
+
 This application uses the Fake Store API for product data.
 
 Base URL: https://fakestoreapi.com
