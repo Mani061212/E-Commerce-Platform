@@ -68,12 +68,14 @@ Technologies Used
 * Heroicons: A set of free MIT-licensed high-quality SVG icons.
 * Axios: Promise-based HTTP client for making API requests.
 
-Getting Started
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 -----------------
 
-Prerequisites
+Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+
+- Prerequisites
 
 Node.js (LTS version recommended)
 npm (comes with Node.js)
@@ -94,7 +96,7 @@ Initialize Tailwind CSS (if not already done by create-next-app):
 npx tailwindcss init -p
 This command creates tailwind.config.js and postcss.config.js in your project root.
 
-Running the Development Server
+- Running the Development Server
 
 To start the development server:
 
@@ -102,7 +104,7 @@ npm run dev
 Open http://localhost:3000 in your browser to see the application. The app will automatically reload if you make changes to the source code.
 
 
-Building for Production
+- Building for Production
 
 To build the application for production:
 
@@ -112,7 +114,7 @@ To start the built production application:
 
 npm run start
 
-Project Structure
+- Project Structure
 
 The project follows a standard Next.js structure with a dedicated src directory for core application logic and components:
 
@@ -165,33 +167,35 @@ Endpoints used:
 /products/{id}: To fetch a single product by its ID.
 Images are configured to be optimized by Next.js from fakestoreapi.com via next.config.js.
 
-UI/UX Enhancements
+- UI/UX Enhancements
 
 The application incorporates various Tailwind CSS classes for an improved user experience, including:
 
-Enhanced Shadows & Borders: Provides depth and visual separation.
-Smooth Transitions & Hover Effects: Subtle animations on interactive elements for a dynamic feel.
-Responsive Adjustments: Uses Tailwind's responsive utilities (md:, lg:) for optimal viewing across devices.
-Dark Mode: A user-toggleable dark theme for comfortable Browse.
-Subtle Animations: A small bounce animation on the cart icon when items are added.
-Clear Quantity Controls: Refined input fields and buttons for cart item quantities.
+* Enhanced Shadows & Borders: Provides depth and visual separation.
+* Smooth Transitions & Hover Effects: Subtle animations on interactive elements for a dynamic feel.
+* Responsive Adjustments: Uses Tailwind's responsive utilities (md:, lg:) for optimal viewing across devices.
+* Dark Mode: A user-toggleable dark theme for comfortable Browse.
+* Subtle Animations: A small bounce animation on the cart icon when items are added.
+* Clear Quantity Controls: Refined input fields and buttons for cart item quantities.
 
-Future Enhancements
+- Future Enhancements
 
 Here are some ideas for extending this application:
 
-User Authentication: Implement user registration, login, and profile management.
-Order History: Allow logged-in users to view their past orders.
+* User Authentication: Implement user registration, login, and profile management.
+* Order History: Allow logged-in users to view their past orders.
+* Payment Gateway Integration: Connect with a real payment processing service (e.g., Stripe) for actual transactions.
+* Product Reviews & Ratings: Enable users to leave reviews and display average ratings.
+* Wishlist: Allow users to save products to a personal wishlist.
+* Pagination/Infinite Scroll: Implement advanced loading for large product catalogs.
+* Admin Dashboard: Create a separate interface for managing products, orders, and users.
 
-Payment Gateway Integration: Connect with a real payment processing service (e.g., Stripe) for actual transactions.
-Product Reviews & Ratings: Enable users to leave reviews and display average ratings.
-Wishlist: Allow users to save products to a personal wishlist.
-Pagination/Infinite Scroll: Implement advanced loading for large product catalogs.
-Admin Dashboard: Create a separate interface for managing products, orders, and users.
-Contributing
+- Contributing
+- 
 Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
 
 License
+
 This project is open-source and available under the MIT License.
 
 ![Screenshot 2025-05-22 233415](https://github.com/user-attachments/assets/2867b8bb-26e1-4b82-a843-ace70be8b50c)
