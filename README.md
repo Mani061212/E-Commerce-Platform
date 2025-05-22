@@ -1,4 +1,5 @@
 My E-Commerce App
+
 Welcome to My E-Commerce App, a modern, responsive online shopping platform built with Next.js, React, and Tailwind CSS. This application offers a seamless user experience for Browse products, managing a shopping cart, and filtering items by category and price.
 
 -------------------
@@ -141,6 +142,7 @@ Here are some ideas for extending this application:
 
 User Authentication: Implement user registration, login, and profile management.
 Order History: Allow logged-in users to view their past orders.
+
 Payment Gateway Integration: Connect with a real payment processing service (e.g., Stripe) for actual transactions.
 Product Reviews & Ratings: Enable users to leave reviews and display average ratings.
 Wishlist: Allow users to save products to a personal wishlist.
@@ -151,3 +153,12 @@ Contributions are welcome! If you have suggestions or improvements, please feel 
 
 License
 This project is open-source and available under the MIT License.
+
+![Screenshot 2025-05-22 233415](https://github.com/user-attachments/assets/2867b8bb-26e1-4b82-a843-ace70be8b50c)
+![Screenshot 2025-05-22 233809](https://github.com/user-attachments/assets/42782c10-e779-4067-b581-cb252a5236ad)
+![Screenshot 2025-05-22 233726](https://github.com/user-attachments/assets/2cf554e8-dba1-4b26-9933-ae944a43cc91)
+![Screenshot 2025-05-22 233702](https://github.com/user-attachments/assets/d0dbdadf-562c-43f2-bc58-80e5a8128b0b)
+![Screenshot 2025-05-22 233630](https://github.com/user-attachments/assets/86876ca3-d7ff-40d0-837c-35e8c5506dfc)
+![Screenshot 2025-05-22 233539](https://github.com/user-attachments/assets/3239d3fb-ba22-4e8c-99ea-8e2df29b104e)
+![Screenshot 2025-05-22 233508](https://github.com/user-attachments/assets/4b71089d-782e-43f5-95c2-01445406d335)
+![Screenshot 2025-05-22 233445](https://github.com/user-attachments/assets/286f7b69-f9c9-4398-8d68-c2a604cb1799)
