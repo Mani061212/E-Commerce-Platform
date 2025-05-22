@@ -169,7 +169,7 @@ Images are configured to be optimized by Next.js from fakestoreapi.com via next.
 
 - UI/UX Enhancements
 
-The application incorporates various Tailwind CSS classes for an improved user experience, including:
+  The application incorporates various Tailwind CSS classes for an improved user experience, including:
 
 * Enhanced Shadows & Borders: Provides depth and visual separation.
 * Smooth Transitions & Hover Effects: Subtle animations on interactive elements for a dynamic feel.
@@ -180,7 +180,7 @@ The application incorporates various Tailwind CSS classes for an improved user e
 
 - Future Enhancements
 
-Here are some ideas for extending this application:
+  Here are some ideas for extending this application:
 
 * User Authentication: Implement user registration, login, and profile management.
 * Order History: Allow logged-in users to view their past orders.
@@ -191,8 +191,7 @@ Here are some ideas for extending this application:
 * Admin Dashboard: Create a separate interface for managing products, orders, and users.
 
 - Contributing
-- 
-Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
+  * Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
 
 License
 
