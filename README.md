@@ -77,121 +77,125 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 - Prerequisites
 
-Node.js (LTS version recommended)
-npm (comes with Node.js)
-Installation
+  Node.js (LTS version recommended)
+  npm (comes with Node.js)
 
-Clone the repository:
+  Installation
 
-git clone https://github.com/your-username/my-ecommerce-app.git
-cd my-ecommerce-app
+   Clone the repository:
 
-Install dependencies:
+   git clone https://github.com/your-username/my-ecommerce-app.git
+   cd my-ecommerce-app
 
-npm install
-This will install all required dependencies and devDependencies, including tailwindcss@^3.x.x, postcss@latest, and autoprefixer@latest.
+  Install dependencies:
 
-Initialize Tailwind CSS (if not already done by create-next-app):
+   npm install
 
-npx tailwindcss init -p
-This command creates tailwind.config.js and postcss.config.js in your project root.
+  This will install all required dependencies and devDependencies, including tailwindcss@^3.x.x, postcss@latest, and autoprefixer@latest.
+
+  Initialize Tailwind CSS (if not already done by create-next-app):
+
+   npx tailwindcss init -p
+
+  This command creates tailwind.config.js and postcss.config.js in your project root.
 
 - Running the Development Server
 
-To start the development server:
+  To start the development server:
 
-npm run dev
-Open http://localhost:3000 in your browser to see the application. The app will automatically reload if you make changes to the source code.
+  npm run dev
+  Open http://localhost:3000 in your browser to see the application. The app will automatically reload if you make changes to the source code.
 
 
 - Building for Production
 
-To build the application for production:
+  To build the application for production:
 
-npm run build
+   npm run build
 
-To start the built production application:
+  To start the built production application:
 
-npm run start
+   npm run start
 
 - Project Structure
 
-The project follows a standard Next.js structure with a dedicated src directory for core application logic and components:
+  The project follows a standard Next.js structure with a dedicated src directory for core application logic and components:
 
 
-my-ecommerce-app/
+  my-ecommerce-app/
 
-├── public/                  # Static assets (images, fonts, etc.)
+  ├── public/                  # Static assets (images, fonts, etc.)
 
-├── src/
+  ├── src/
 
-│   ├── components/          # Reusable React components (Navbar, ProductCard, CartItem)
+  │   ├── components/          # Reusable React components (Navbar, ProductCard, CartItem)
 
-│   ├── context/             # React Context for global state management (CartContext, ThemeContext)
+  │   ├── context/             # React Context for global state management (CartContext, ThemeContext)
 
-│   ├── lib/                 # Utility functions (API calls)
+  │   ├── lib/                 # Utility functions (API calls)
 
-│   ├── pages/               # Next.js pages (routes: index, products, product/[id], cart, _app)
+  │   ├── pages/               # Next.js pages (routes: index, products, product/[id], cart, _app)
 
-│   ├── styles/              # Global CSS styles (globals.css)
+  │   ├── styles/              # Global CSS styles (globals.css)
 
-│   ├── types/               # TypeScript type definitions
+  │   ├── types/               # TypeScript type definitions
 
-│   └── __tests__/           # Jest/React Testing Library tests
+  │   └── __tests__/           # Jest/React Testing Library tests
 
-├── .next/                   # Next.js build output (ignored by Git)
+  ├── .next/                   # Next.js build output (ignored by Git)
 
-├── node_modules/            # Project dependencies (ignored by Git)
+  ├── node_modules/            # Project dependencies (ignored by Git)
 
 
-├── package.json             # Project metadata and scripts
+  ├── package.json             # Project metadata and scripts
 
-├── tailwind.config.js       # Tailwind CSS configuration
+  ├── tailwind.config.js       # Tailwind CSS configuration
 
-├── postcss.config.js        # PostCSS configuration for Tailwind CSS
+  ├── postcss.config.js        # PostCSS configuration for Tailwind CSS
 
-├── next.config.js           # Next.js configuration
+  ├── next.config.js           # Next.js configuration
 
-├── tsconfig.json            # TypeScript configuration
+  ├── tsconfig.json            # TypeScript configuration
 
-└── README.md                # This file
+  └── README.md                # This file
 
-API Reference
+  API Reference
 
-This application uses the Fake Store API for product data.
+  This application uses the Fake Store API for product data.
 
-Base URL: https://fakestoreapi.com
+  Base URL: https://fakestoreapi.com
 
-Endpoints used:
-/products: To fetch all products.
-/products/{id}: To fetch a single product by its ID.
-Images are configured to be optimized by Next.js from fakestoreapi.com via next.config.js.
+  Endpoints used:
+  /products: To fetch all products.
+  /products/{id}: To fetch a single product by its ID.
+  Images are configured to be optimized by Next.js from fakestoreapi.com via next.config.js.
 
 - UI/UX Enhancements
 
   The application incorporates various Tailwind CSS classes for an improved user experience, including:
 
-* Enhanced Shadows & Borders: Provides depth and visual separation.
-* Smooth Transitions & Hover Effects: Subtle animations on interactive elements for a dynamic feel.
-* Responsive Adjustments: Uses Tailwind's responsive utilities (md:, lg:) for optimal viewing across devices.
-* Dark Mode: A user-toggleable dark theme for comfortable Browse.
-* Subtle Animations: A small bounce animation on the cart icon when items are added.
-* Clear Quantity Controls: Refined input fields and buttons for cart item quantities.
+ * Enhanced Shadows & Borders: Provides depth and visual separation.
+ * Smooth Transitions & Hover Effects: Subtle animations on interactive elements for a dynamic feel.
+ * Responsive Adjustments: Uses Tailwind's responsive utilities (md:, lg:) for optimal viewing across devices.
+ * Dark Mode: A user-toggleable dark theme for comfortable Browse.
+ * Subtle Animations: A small bounce animation on the cart icon when items are added.
+ * Clear Quantity Controls: Refined input fields and buttons for cart item quantities.
 
 - Future Enhancements
 
   Here are some ideas for extending this application:
 
-* User Authentication: Implement user registration, login, and profile management.
-* Order History: Allow logged-in users to view their past orders.
-* Payment Gateway Integration: Connect with a real payment processing service (e.g., Stripe) for actual transactions.
-* Product Reviews & Ratings: Enable users to leave reviews and display average ratings.
-* Wishlist: Allow users to save products to a personal wishlist.
-* Pagination/Infinite Scroll: Implement advanced loading for large product catalogs.
-* Admin Dashboard: Create a separate interface for managing products, orders, and users.
+ * User Authentication: Implement user registration, login, and profile management.
+ * Order History: Allow logged-in users to view their past orders.
+ * Payment Gateway Integration: Connect with a real payment processing service (e.g., Stripe) for actual transactions.
+ * Product Reviews & Ratings: Enable users to leave reviews and display average ratings.
+ * Wishlist: Allow users to save products to a personal wishlist.
+ * Pagination/Infinite Scroll: Implement advanced loading for large product catalogs.
+ * Admin Dashboard: Create a separate interface for managing products, orders, and users.
 
 - Contributing
-  * Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
+
+   * Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
 
 License
 
