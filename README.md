@@ -174,32 +174,32 @@ Follow these instructions to get a copy of the project up and running on your lo
 
   The application incorporates various Tailwind CSS classes for an improved user experience, including:
 
- * Enhanced Shadows & Borders: Provides depth and visual separation.
- * Smooth Transitions & Hover Effects: Subtle animations on interactive elements for a dynamic feel.
- * Responsive Adjustments: Uses Tailwind's responsive utilities (md:, lg:) for optimal viewing across devices.
- * Dark Mode: A user-toggleable dark theme for comfortable Browse.
- * Subtle Animations: A small bounce animation on the cart icon when items are added.
- * Clear Quantity Controls: Refined input fields and buttons for cart item quantities.
+  * Enhanced Shadows & Borders: Provides depth and visual separation.
+  * Smooth Transitions & Hover Effects: Subtle animations on interactive elements for a dynamic feel.
+  * Responsive Adjustments: Uses Tailwind's responsive utilities (md:, lg:) for optimal viewing across devices.
+  * Dark Mode: A user-toggleable dark theme for comfortable Browse.
+  * Subtle Animations: A small bounce animation on the cart icon when items are added.
+  * Clear Quantity Controls: Refined input fields and buttons for cart item quantities.
 
 - Future Enhancements
 
   Here are some ideas for extending this application:
 
- * User Authentication: Implement user registration, login, and profile management.
- * Order History: Allow logged-in users to view their past orders.
- * Payment Gateway Integration: Connect with a real payment processing service (e.g., Stripe) for actual transactions.
- * Product Reviews & Ratings: Enable users to leave reviews and display average ratings.
- * Wishlist: Allow users to save products to a personal wishlist.
- * Pagination/Infinite Scroll: Implement advanced loading for large product catalogs.
- * Admin Dashboard: Create a separate interface for managing products, orders, and users.
+  * User Authentication: Implement user registration, login, and profile management.
+  * Order History: Allow logged-in users to view their past orders.
+  * Payment Gateway Integration: Connect with a real payment processing service (e.g., Stripe) for actual transactions.
+  * Product Reviews & Ratings: Enable users to leave reviews and display average ratings.
+  * Wishlist: Allow users to save products to a personal wishlist.
+  * Pagination/Infinite Scroll: Implement advanced loading for large product catalogs.
+  * Admin Dashboard: Create a separate interface for managing products, orders, and users.
 
 - Contributing
 
    * Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
 
-License
+- License
 
-This project is open-source and available under the MIT License.
+   This project is open-source and available under the MIT License.
 
 ![Screenshot 2025-05-22 233415](https://github.com/user-attachments/assets/2867b8bb-26e1-4b82-a843-ace70be8b50c)
 ![Screenshot 2025-05-22 233809](https://github.com/user-attachments/assets/42782c10-e779-4067-b581-cb252a5236ad)
