@@ -5,20 +5,19 @@ Welcome to My E-Commerce App, a modern, responsive online shopping platform buil
 -------------------
 
 Table of Contents
-Features
-Technologies Used
-Getting Started
-Prerequisites
-Installation
-Running the Development Server
-Building for Production
-Project Structure
-API Reference
-UI/UX Enhancements
-Testing
-Future Enhancements
-Contributing
-License
+-Features
+-Technologies Used
+-Getting Started
+-Prerequisites
+-Installation
+-Running the Development Server
+-Building for Production
+-Project Structure
+-API Reference
+-UI/UX Enhancements
+-Future Enhancements
+-Contributing
+-License
 
 -----------------
 
